@@ -49,12 +49,12 @@ It follows the following format: variable name: data type. description.
 *	fBodyAcc_std_X	:	Double	.	Average of 	standard deviation	for the frequency of	body acceleration	along axis	X	.
 *	fBodyAcc_std_Y	:	Double	.	Average of 	standard deviation	for the frequency of	body acceleration	along axis	Y	.
 *	fBodyAcc_std_Z	:	Double	.	Average of 	standard deviation	for the frequency of	body acceleration	along axis	Z	.
-*	fBodyAccJerk_mean_X	:	Double	.	Average of 	mean	for the frequency of	gravity acceleration	along axis	X	.
-*	fBodyAccJerk_mean_Y	:	Double	.	Average of 	mean	for the frequency of	gravity acceleration	along axis	Y	.
-*	fBodyAccJerk_mean_Z	:	Double	.	Average of 	mean	for the frequency of	gravity acceleration	along axis	Z	.
-*	fBodyAccJerk_std_X	:	Double	.	Average of 	standard deviation	for the frequency of	gravity acceleration	along axis	X	.
-*	fBodyAccJerk_std_Y	:	Double	.	Average of 	standard deviation	for the frequency of	gravity acceleration	along axis	Y	.
-*	fBodyAccJerk_std_Z	:	Double	.	Average of 	standard deviation	for the frequency of	gravity acceleration	along axis	Z	.
+*	fBodyAccJerk_mean_X	:	Double	.	Average of 	mean	for the frequency of	body acceleration jerk	along axis	X	.
+*	fBodyAccJerk_mean_Y	:	Double	.	Average of 	mean	for the frequency of	body acceleration jerk	along axis	Y	.
+*	fBodyAccJerk_mean_Z	:	Double	.	Average of 	mean	for the frequency of	body acceleration jerk	along axis	Z	.
+*	fBodyAccJerk_std_X	:	Double	.	Average of 	standard deviation	for the frequency of	body acceleration jerk	along axis	X	.
+*	fBodyAccJerk_std_Y	:	Double	.	Average of 	standard deviation	for the frequency of	body acceleration jerk	along axis	Y	.
+*	fBodyAccJerk_std_Z	:	Double	.	Average of 	standard deviation	for the frequency of	body acceleration jerk	along axis	Z	.
 *	fBodyGyro_mean_X	:	Double	.	Average of 	mean	for the frequency of	body angular velocity	along axis	X	.
 *	fBodyGyro_mean_Y	:	Double	.	Average of 	mean	for the frequency of	body angular velocity	along axis	Y	.
 *	fBodyGyro_mean_Z	:	Double	.	Average of 	mean	for the frequency of	body angular velocity	along axis	Z	.
