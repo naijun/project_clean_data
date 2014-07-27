@@ -12,13 +12,13 @@ Once unzipped, the fragmented datasets are contained in the folder "UCI HAR Data
 
 ### High-level Processes on Data Transformation:
 1. Read in the required data that is needed to calculate the average of all measurements on mean and standard deviation. The following files are read: activity_labels, features, subject_test, X_test, y_test, subject_train, X_train and y_train.
-2. Merge the training and test data with row bind 
+2. Merge the training and test data with row bind. 
 3. Identify variable names with mean and standard deviation using grep. Variables are described in more detail in the CodeBook.
-4. Extract columns with mean and standard deviation measures only
-5. Replace the activity labels with meaningful language instead of integer codes
-6. Clean up on the variable names by removing special characters and repetitions
-7. Calculates the mean for each variable by subject and activity
-8. Write the data into a text file and also output the data as function return
+4. Extract columns with mean and standard deviation measures only.
+5. Replace the activity labels with meaningful language instead of integer codes.
+6. Clean up on the variable names by removing special characters and repetitions.
+7. Calculates the mean for each variable by subject and activity.
+8. Write the data into a text file and also output the data as function return.
 
 ### Key Watchouts:
 You are recommended to run the R script in RStudio Version 0.98.978. Before you run, please set the working directory to the parent folder (i.e. one-level up folder) of the dataset "UCI HAR Dataset". Please also ensure "plyr" package is installed and library(plyr) is loaded.
