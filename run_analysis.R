@@ -1,7 +1,6 @@
 run_analysis <- function(){
   ## Before running this code, please set the correct working directory
   ## which contains the data folder "UCI HAR Dataset"
-  ## e.g. setwd("C:/Users/Naijun/Google Drive/Data Science/Getting and Cleaning Data/project")
   
   ## read in data: activity_labels, features, subject_test, X_test, y_test,
   ## subject_train, X_train and y_train
@@ -45,7 +44,7 @@ run_analysis <- function(){
   
   
   ## find the average of each variable for each subject and activity
-  tidydata <- aggregate(merged_data[3:68], by=list(merged_data[,1],d[,2]), FUN = mean)
+  tidydata <- aggregate(merged_data[3:68], by=list(merged_data[,1],merged_data[,2]), FUN = mean)
   
   ## rename column 1 and 2 to make it tiday
   colnames(tidydata) <- colnames(merged_data)
